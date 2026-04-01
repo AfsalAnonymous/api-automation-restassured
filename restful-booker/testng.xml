@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestfulBookerSuite">
+    <test thread-count="5" name="AllTests">
+        <classes>
+            <class name="AuthTest"/>
+            <class name="BaseTest"/>
+            <class name="GetBookingTest"/>
+            <class name="CreateBookingTest"/>
+            <class name="UpdateBookingTest"/>
+            <class name="UpdatePartialTest"/>
+            <class name="DeleteBookingTest"/>
+        </classes>
+    </test> <!-- AllTests -->
+</suite> <!-- RestfulBookerSuite -->
