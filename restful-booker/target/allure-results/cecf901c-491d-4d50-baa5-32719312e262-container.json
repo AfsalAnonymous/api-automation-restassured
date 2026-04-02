@@ -1,0 +1,1 @@
+{"uuid":"cecf901c-491d-4d50-baa5-32719312e262","name":"RestfulBookerSuite","children":["ec353984-28be-4101-9ab8-0e622c01f775"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1775129367120,"stop":1775129368343}],"afters":[],"start":1775129367024,"stop":1775129387686}
