@@ -28,4 +28,4 @@ TestNG: As the testing framework for managing and running tests.
 
 Maven: For project and dependency management.
 
-Log4j2: For logging.
+Reporting : Allure
