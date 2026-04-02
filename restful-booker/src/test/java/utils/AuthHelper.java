@@ -1,3 +1,5 @@
+package utils;
+
 import java.io.File;
 
 import static io.restassured.RestAssured.given;

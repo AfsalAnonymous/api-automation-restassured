@@ -1,7 +1,11 @@
+package test;
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.AuthHelper;
+
 import java.io.File;
 import static io.restassured.RestAssured.given;
 

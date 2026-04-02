@@ -3,13 +3,13 @@
 <suite name="RestfulBookerSuite">
     <test thread-count="5" name="AllTests">
         <classes>
-            <class name="AuthTest"/>
-            <class name="BaseTest"/>
-            <class name="GetBookingTest"/>
-            <class name="CreateBookingTest"/>
-            <class name="UpdateBookingTest"/>
-            <class name="UpdatePartialTest"/>
-            <class name="DeleteBookingTest"/>
+            <class name="test.AuthTest"/>
+            <class name="test.BaseTest"/>
+            <class name="test.GetBookingTest"/>
+            <class name="test.CreateBookingTest"/>
+            <class name="test.UpdateBookingTest"/>
+            <class name="test.UpdatePartialTest"/>
+            <class name="test.DeleteBookingTest"/>
         </classes>
     </test> <!-- AllTests -->
 </suite> <!-- RestfulBookerSuite -->

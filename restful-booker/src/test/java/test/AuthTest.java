@@ -1,5 +1,5 @@
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
+package test;
+
 import org.testng.annotations.Test;
 
 import java.io.File;

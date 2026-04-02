@@ -1,6 +1,7 @@
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
+package test;
+
 import org.testng.annotations.Test;
+import utils.AuthHelper;
 
 import static io.restassured.RestAssured.given;
 

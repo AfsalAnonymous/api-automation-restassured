@@ -1,3 +1,5 @@
+package test;
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
@@ -17,7 +19,7 @@ public class CreateBookingTest {
                 .post("/booking")
                 .then().statusCode(200).extract().response();
         String jsonResponse = response.asString();
-        JsonPath jsonPath = new JsonPath(jsonResponse);
+        JsonPath jsonPath =  new JsonPath(jsonResponse);
         System.out.println(jsonResponse);
         bookingId = jsonPath.getString("bookingid");
         System.out.println(bookingId);
