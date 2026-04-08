@@ -1,7 +1,2 @@
 .idea/
-target/allure-results/
-target/maven-status/
-target/surefire-reports/
-target/test-classes/allure.properties
-target/test-classes/test/
-target/test-classes/utils/
+target/
