@@ -1,8 +1,0 @@
-test\UpdateBookingTest.class
-test\BaseTest.class
-test\CreateBookingTest.class
-utils\AuthHelper.class
-test\DeleteBookingTest.class
-test\UpdatePartialTest.class
-test\GetBookingTest.class
-test\AuthTest.class
